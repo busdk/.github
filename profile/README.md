@@ -1,4 +1,4 @@
-# Business Unit Software Development Kit
+# Business Software Development Kit
 
 **BuSDK** is an open, modular toolkit for building systems around **business units, structured data, and transparent operations**.
 
