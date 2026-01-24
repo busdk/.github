@@ -1,6 +1,6 @@
-# BuSDK
+# BusDK
 
-**BuSDK (Business Unit Software Development Kit)** is an open, modular toolkit 
+**BusDK (Business Development Kit)** is an open, modular toolkit 
 for building systems around **business units, structured data, and transparent 
 operations**.
 
