@@ -1,7 +1,7 @@
 # Business Software Development Kit
 
-**BuSDK** is an open, modular toolkit for building systems around **business units, structured data, and transparent operations**.
+**BuSDK** is a modular, CLI-first toolkit for **small-business accounting and bookkeeping**, built around **open, long-lived formats** and **transparent, auditable operations**.
 
-It focuses on **open formats**, **simple primitives**, and **deterministic behavior**, with a CLI- and API-first design suitable for both humans and automated agents.
+All business data lives in **UTF-8 CSV files** with **Frictionless Data Table Schema (JSON)** as the authoritative source of typing and constraints, intended to be maintained inside a **Git repository** for a tamper-evident history of every change. The system favors **simple primitives**, **deterministic behavior**, and workflows that work equally well for humans and automated agents.
 
-BuSDK is an organization that hosts multiple related projects, including core libraries, specifications, and tooling.
+BuSDK aims to ship as a suite of focused subcommand binaries invoked through the core `bus` dispatcher: **bus-accounts**, **bus-attachments**, **bus-bank**, **bus-budget**, **bus-entities**, **bus-invoices**, **bus-journal**, **bus-period**, **bus-reconcile**, **bus-reports**, **bus-validate**, and **bus-vat**.
