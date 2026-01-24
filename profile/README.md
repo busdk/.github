@@ -21,4 +21,6 @@ BusDK is currently **pre-release** and under active development: interfaces, sch
 - [bus-reports](https://github.com/busdk/bus-reports) — Reporting: generate trial balance, general ledger, profit & loss, and balance sheet, with integrity checks and text/CSV/JSON outputs.
 - [bus-validate](https://github.com/busdk/bus-validate) — Workspace validation: check each CSV against its Frictionless schema, verify cross-table integrity, and enforce core double-entry invariants.
 - [bus-vat](https://github.com/busdk/bus-vat) — Finnish VAT (ALV): compute VAT from Bus workspaces, validate VAT code/rate mappings, reconcile invoice VAT vs ledger postings, and produce period summaries and export files for reporting and archiving.
-- [bus-filing](https://github.com/busdk/bus-filing) — dispatcher module for PRH/Vero filing targets
+- [bus-filing](https://github.com/busdk/bus-filing) — Filing target dispatcher invoked as `bus filing …`, discovering and executing `bus-filing-<target>` binaries.
+- [bus-filing-prh](https://github.com/busdk/bus-filing-prh) — PRH filing target for `bus filing prh …`, generating PRH-ready financial statement export bundles from a closed, validated workspace.
+- [bus-filing-vero](https://github.com/busdk/bus-filing-vero) — Vero filing target for `bus filing vero …`, generating Vero-ready tax filing export bundles from a closed, validated workspace.
