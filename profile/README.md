@@ -1,4 +1,4 @@
-# Business Software Development Kit
+# Business Development Kit
 
 **BuSDK** is a modular, CLI-first toolkit for **small-business accounting and bookkeeping**, built around **open, long-lived formats** and **transparent, auditable operations**.
 
