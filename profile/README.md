@@ -1,6 +1,6 @@
 # Business Development Kit (BusDK)
 
-**BusDK** is a modular, Git-native, CLI-first toolkit for running a business — built on open, long-lived formats and transparent, auditable workflows, designed for humans and AI agents.
+**Bus** is a modular, Git-native, CLI-first toolkit for running a business — built on open, long-lived formats and transparent, auditable workflows, designed for humans and AI agents.
 
 A BusDK workspace is designed to live in a **Git repository**, where business data is stored as **UTF-8 CSV datasets** and validated using **Frictionless Data Table Schema (JSON)** as the authoritative source of typing and constraints. The focus is on **simple primitives**, **deterministic behavior**, and workflows that work equally well for humans and automated agents.
 
