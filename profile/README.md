@@ -4,7 +4,7 @@
 
 A BusDK workspace is designed to live in a **Git repository**, where business data is stored as **UTF-8 CSV datasets** and validated using **Frictionless Data Table Schema (JSON)** as the authoritative source of typing and constraints. The focus is on **simple primitives**, **deterministic behavior**, and workflows that work equally well for humans and automated agents.
 
-BusDK is currently **pre-release** and under active development: interfaces, schemas, and file conventions may still change, and not all modules are feature-complete. The long-term goal is a suite of focused subcommand binaries invoked through the core `bus` dispatcher (see also: https://github.com/busdk/bus). Specifications and documentation live in https://github.com/busdk/docs.
+BusDK is currently **pre-release** and under active development: interfaces, schemas, and file conventions may still change, and not all modules are feature-complete. The long-term goal is a suite of focused subcommand binaries invoked through the core `bus` dispatcher (see also: https://github.com/busdk/bus). Specifications and documentation live in https://docs.busdk.com.
 
 ## Modules (subcommands)
 
