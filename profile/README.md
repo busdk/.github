@@ -17,6 +17,7 @@ BusDK is currently **pre-release** and under active development: interfaces, sch
 - [bus-inventory](https://github.com/busdk/bus-inventory) — Inventory and stock records as schema-validated CSV: items, stock movements, stocktakes, and inventory valuation support that can produce deterministic postings for `bus-journal`/`bus-period`.
 - [bus-invoices](https://github.com/busdk/bus-invoices) — Sales and purchase invoices as Frictionless CSV datasets, with deterministic validation, CLI tooling, and optional auto-posting to `bus-journal`.
 - [bus-journal](https://github.com/busdk/bus-journal) — Double-entry journal for recording and validating ledger transactions (CSV + Frictionless Table Schema).
+- [bus-loans](https://github.com/busdk/bus-loans) — loan register, drawdowns, and amortization schedules.
 - [bus-payroll](https://github.com/busdk/bus-payroll) — Payroll runs as schema-validated datasets: earnings/deductions and employer liabilities, with deterministic journal postings and audit-friendly payroll summaries.
 - [bus-period](https://github.com/busdk/bus-period) — Open, close, and lock accounting periods; generate closing entries and next-period opening balances to keep closed periods immutable.
 - [bus-reconcile](https://github.com/busdk/bus-reconcile) — Bank reconciliation: match imported bank transactions to invoices or journal entries, allocate payments (partials/splits/fees), and record reconciled state as append-only CSV with Frictionless schemas.
