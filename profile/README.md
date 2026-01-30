@@ -27,3 +27,4 @@ BusDK is currently **pre-release** and under active development: interfaces, sch
 - [bus-filing](https://github.com/busdk/bus-filing) — Filing target dispatcher invoked as `bus filing …`, discovering and executing `bus-filing-<target>` binaries.
 - [bus-filing-prh](https://github.com/busdk/bus-filing-prh) — PRH filing target for `bus filing prh …`, generating PRH-ready financial statement export bundles from a closed, validated workspace.
 - [bus-filing-vero](https://github.com/busdk/bus-filing-vero) — Vero filing target for `bus filing vero …`, generating Vero-ready tax filing export bundles from a closed, validated workspace.
+- [bus-pdf](https://github.com/busdk/bus-pdf) — Generic PDF rendering target for `bus pdf …`, generating deterministic PDF documents from templates and structured data, designed to be used by other modules (for example `bus invoices pdf …`) to produce auditable, reproducible document artifacts such as Finnish A4 invoices.
