@@ -8,6 +8,7 @@ BusDK is currently **pre-release** and under active development: interfaces, sch
 
 ## Modules (subcommands)
 
+- [bus-init](https://github.com/busdk/bus-init) — Workspace scaffolding: initialize a new BusDK workspace layout (e.g. `fi`) by creating the required directories, baseline schema-validated CSV datasets, and a root `datapackage.json`, deterministically and without running any git or network operations.
 - [bus-accounts](https://github.com/busdk/bus-accounts) — Chart of Accounts / account master data for BusDK workspaces.
 - [bus-assets](https://github.com/busdk/bus-assets) — Fixed asset register in schema-validated CSV, including depreciation schedules, depreciation postings for `bus-journal`/`bus-period`, and audit-friendly acquisition/disposal reporting.
 - [bus-attachments](https://github.com/busdk/bus-attachments) — Document archive for receipts and supporting files, with Frictionless-schema CSV metadata so other modules can link records to verifiable, Git-friendly attachments.
