@@ -13,6 +13,7 @@ BusDK will be distributed as free, ready-to-run CLI binaries, so anyone can down
 ## Modules (subcommands)
 
 - [bus-init](https://docs.busdk.com/modules/bus-init) — Workspace scaffolding: initialize a new BusDK workspace layout (e.g. `fi`) by creating the required directories, baseline schema-validated CSV datasets, and a root `datapackage.json`, deterministically and without running any git or network operations.
+- [bus-data](https://docs.busdk.com/modules/bus-data) — Tabular data layer: schema-validated dataset I/O and validation for BusDK workspaces (CSV + JSON Table Schema), providing a Go library (and a thin `bus data …` CLI) for deterministic CRUD-style table and schema handling without domain business logic or CLI-to-CLI dependencies.
 - [bus-accounts](https://docs.busdk.com/modules/bus-accounts) — Chart of Accounts / account master data for BusDK workspaces.
 - [bus-assets](https://docs.busdk.com/modules/bus-assets) — Fixed asset register in schema-validated CSV, including depreciation schedules, depreciation postings for `bus-journal`/`bus-period`, and audit-friendly acquisition/disposal reporting.
 - [bus-attachments](https://docs.busdk.com/modules/bus-attachments) — Document archive for receipts and supporting files, with Frictionless-schema CSV metadata so other modules can link records to verifiable, Git-friendly attachments.
