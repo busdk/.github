@@ -6,6 +6,10 @@ A Bus workspace is designed to live in a **Git repository**, where business data
 
 BusDK is currently **pre-release** and under active development: interfaces, schemas, and file conventions may still change, and not all modules are feature-complete. The long-term goal is [a suite of modules invoked through the `bus` command](https://github.com/busdk/busdk). Specifications and documentation live in [docs.busdk.com](https://docs.busdk.com).
 
+## Business Model
+
+BusDK will be distributed as free, ready-to-run CLI binaries, so anyone can download and use the tools immediately. The full source code and documentation are available to subscribers: during an active subscription you get access to the latest repositories, updates, and release history. All subscriber-accessible code and documentation are provided under the MIT License, so once you have access you may use, modify, and redistribute them under MIT terms. Subscriptions fund ongoing development, maintenance, and timely updates, and provide the simplest official way to stay current with BusDK releases.
+
 ## Modules (subcommands)
 
 - [bus-init](https://github.com/busdk/bus-init) — Workspace scaffolding: initialize a new BusDK workspace layout (e.g. `fi`) by creating the required directories, baseline schema-validated CSV datasets, and a root `datapackage.json`, deterministically and without running any git or network operations.
