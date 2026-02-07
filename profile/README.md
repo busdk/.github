@@ -4,7 +4,7 @@
 
 A Bus workspace lives in a **Git repository**. Business data is stored as **UTF-8 CSV datasets** and validated with **Frictionless Table Schema (JSON)** as the authoritative source of typing, constraints, and cross-table integrity. The system focuses on **small primitives**, **deterministic behavior**, and workflows that remain inspectable and reproducible over time.
 
-BusDK is currently **pre-release** and under active development: interfaces, schemas, and file conventions may still change, and not all modules are feature-complete. The long-term goal is a coherent suite of modules invoked through the `bus` command (see https://github.com/busdk/busdk). Specifications and documentation live at https://docs.busdk.com. For deeper architectural background, see the BuSDK design document.
+BusDK is currently **pre-release** and under active development: interfaces, schemas, and file conventions may still change, and not all modules are feature-complete. The long-term goal is a coherent suite of modules invoked through the `bus` command (see https://github.com/busdk/busdk/releases). Specifications and documentation live at https://docs.busdk.com. For deeper architectural background, see the BuSDK design document.
 
 ## Business Model
 
